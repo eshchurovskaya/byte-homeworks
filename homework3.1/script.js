@@ -1,11 +1,11 @@
-// let firstNumber = prompt('Введите первое число');
-// let secondNumber = prompt('Введите второе число');
+// let firstNumber = Number(prompt('Введите первое число'));
+// let secondNumber = +prompt('Введите второе число');
 
 // if (firstNumber > secondNumber) {
 //     alert(`Число ${firstNumber} больше, чем число ${secondNumber}`);
 // } else if (firstNumber < secondNumber) {
 //     alert(`Число ${firstNumber} меньше, чем число ${secondNumber}`);
-// } else if (firstNumber = secondNumber) {
+// } else if (firstNumber === secondNumber) {
 //     alert(`Число ${firstNumber} равно числу ${secondNumber}`);
 // };
 
@@ -34,6 +34,26 @@
 //         alert ('результат : ' + division);
 //         break;
 // };
+
+
+// const number1 = Number(prompt('Введите первое число'));
+// const act = (prompt('Введите действие (+ - * /)'));
+// const number2 = Number(prompt('ведите второе число'));
+
+// switch (act) {
+//     case '+' :
+//         alert(number1+number2)
+//     break;
+//     case '-' :
+//         alert(number1-number2)
+//     break;
+//     case '*' :
+//         alert(number1*number2)
+//     break;
+//     case '/' :
+//         alert(number1/number2)
+//     break;
+// }
 
 
 

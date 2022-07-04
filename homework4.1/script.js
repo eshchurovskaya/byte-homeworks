@@ -31,9 +31,9 @@
 
 
 
-function degreeNumber (a, b){
+function degreeNumber (a, b = 2){
     return a**b
 };
 
-let result3 = degreeNumber (5, 3);
+let result3 = degreeNumber (5);
 console.log(result3);
